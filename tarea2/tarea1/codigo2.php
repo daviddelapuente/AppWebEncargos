@@ -1,0 +1,2 @@
+$var_consulta= "INSERT INTO `viaje` (`id`, `fecha_ida`, `fecha_regreso`, `origen`, `destino`, `kilos_disponible`, `espacio_disponible`, `email_viajero`, `celular_viajero`) VALUES ('3', '2018-11-13 00:00:00', '2018-11-21 00:00:00', '80401', '90102', '4', '1', 'sdasd@gmail.com', '3434343434')";
+        $var_resultado = $mysqli->query($var_consulta);
